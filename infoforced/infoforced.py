@@ -40,7 +40,7 @@ class Foo(commands.Cog):
             value=f"Cj's Commisions Modmail Hosting"
             "To get a modmail bot hosted by us join https://discord.gg/F9yPkvcTzY.",
             inline=False,
-
+        )
         footer = "Cj's Commisions Hosting Service"
         embed.set_footer(text=footer)
         await ctx.send(embed=embed)
